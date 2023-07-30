@@ -3,15 +3,15 @@ import streamlit as st
 import streamlit.components.v1 as components
 import random
 
-components.html("""
-                <html lang="en"><head><meta charset="UTF-8"/>
-                <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
-                <link rel="shortcut icon" href="./favicon.png"/><title>Streamlit</title>
-                <script>window.prerenderReady=!1</script><script defer="defer" src="./static/js/main.dccfd6b5.js">
-                </script>
-                <link href="./static/css/main.f4a8738f.css" rel="stylesheet"></head><body>
-                <noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body>
-                </html>""", width=800, height=600, scrolling=True)
+# components.html("""
+#                 <html lang="en"><head><meta charset="UTF-8"/>
+#                 <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
+#                 <link rel="shortcut icon" href="./favicon.png"/><title>Streamlit</title>
+#                 <script>window.prerenderReady=!1</script><script defer="defer" src="./static/js/main.dccfd6b5.js">
+#                 </script>
+#                 <link href="./static/css/main.f4a8738f.css" rel="stylesheet"></head><body>
+#                 <noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body>
+#                 </html>""", width=800, height=600, scrolling=True)
 
 INITIAL_QUESTION_TYPE = '빅데이터 분석기사'
 QUESTION_TYPE_OPTIONS = ['빅데이터 분석기사', '통계학', '확률과 통계']
